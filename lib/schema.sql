@@ -15,4 +15,8 @@ CREATE TABLE authors (
   name TEXT
 );
 
-CREATE TABLE 
+CREATE TABLE books (
+  id INTEGER PRIMARY KEY,
+  title TEXT,
+  year INTEGER,
+)
