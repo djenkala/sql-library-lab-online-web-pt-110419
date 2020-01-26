@@ -33,5 +33,5 @@ CREATE TABLE characters (
 CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
   character_id INTEGER,
-  books_id INTEGER
+  book_id INTEGER
 );
